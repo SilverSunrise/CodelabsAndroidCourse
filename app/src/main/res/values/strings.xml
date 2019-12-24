@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">CodelabsAndroidCourse</string>
+    <string name="app_name">First Activity</string>
+    <string name="button_main">send</string>
+    <string name="activity2_name">Second Activity</string>
+    <string name="text_header">Сообщение получено</string>
 </resources>
