@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">CodelabsAndroidCourse</string>
+    <string name="app_name">HelloConstraint</string>
     <string name="button_count">Count</string>
     <string name="button_toast">Toast</string>
     <string name="showCount">0</string>
+    <string name="button_zero">Zero</string>
 </resources>
