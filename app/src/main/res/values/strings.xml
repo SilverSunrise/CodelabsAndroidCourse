@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">First Activity</string>
-    <string name="button_main">send</string>
+    <string name="button_main">Отправить</string>
     <string name="activity2_name">Second Activity</string>
     <string name="text_header">Сообщение получено</string>
+    <string name="editText_main">Введите ваше сообщение здесь</string>
 </resources>
