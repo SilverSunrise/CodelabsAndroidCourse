@@ -1,9 +1,11 @@
 package com.example.android.com;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.PersistableBundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
@@ -70,6 +72,15 @@ public class MainActivity extends AppCompatActivity {
         String message = mMessageEditText.getText().toString();
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivityForResult(intent, TEXT_REQUEST);
+    }
+
+    @Override
+    public void onSaveInstanceState(@NonNull Bundle outState) {
+        super.onSaveInstanceState(outState);
+        if (mReplyHeadTextView.getVisibility() == View.VISIBLE) {
+            outState.putBoolean("reply_visible", true);
+            outState.putString("reply_text", mReplyTextView.getText().toString());
+        }
     }
 
     @Override
