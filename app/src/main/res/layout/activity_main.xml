@@ -18,7 +18,7 @@
         android:layout_marginRight="8dp"
         android:background="@color/colorPrimary"
         android:onClick="ShowToast"
-        android:text="@string/button_toast"
+        android:text="@string/button_hello"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
