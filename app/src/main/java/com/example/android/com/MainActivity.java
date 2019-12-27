@@ -36,10 +36,13 @@ public class MainActivity extends AppCompatActivity {
         mCount++;
         if(mShowCount != null) {
             mShowCount.setText(Integer.toString(mCount));
+        }
+        if (mCount % 2 == 0) {
             cShowBtn.setBackgroundColor(Color.rgb(231, 84, 128));
+        } else {
+            cShowBtn.setBackgroundColor(Color.rgb(151, 84, 188));
         }
     }
-
 
     public void ShowZero(View view) {
         mShowCount.setText("0");
@@ -47,3 +50,4 @@ public class MainActivity extends AppCompatActivity {
         cShowBtn.setBackgroundColor(Color.rgb(133, 133, 133));
     }
 }
+
