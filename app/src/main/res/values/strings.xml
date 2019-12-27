@@ -1,4 +1,6 @@
 <resources>
-    <string name="app_name">CodelabsAndroidCourse</string>
-    <string name="happy_birthday">Happy Birthday to Mari</string>
+    <string name="app_name">Happy birthday</string>
+    <string name="happy_birthday">Happy Birthday to </string>
+    <string name="congratulation">Congratulation</string>
+    <string name="write_name">Write name Mari</string>
 </resources>
