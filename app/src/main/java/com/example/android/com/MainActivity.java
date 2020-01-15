@@ -21,9 +21,9 @@ public class MainActivity extends AppCompatActivity {
         Log.d(TAG, "найдём View-элемент");
         editTextName = findViewById(R.id.edit_name);
 
-        Log.e(TAG, "Happy birthday to Mari");
-        Log.i(TAG, "Happy birthday to Mari");
-        Log.w(TAG, "Happy birthday to Mari");
+        Log.e(TAG, "Ooops here");
+        Log.i(TAG, "Ooops here too");
+        Log.w(TAG, "Nothing here");
     }
 
 
@@ -32,6 +32,6 @@ public class MainActivity extends AppCompatActivity {
         TextView showCongrats = findViewById(R.id.show_congratulation);
         String name = editTextName.getText().toString();
         Log.d(TAG, "меняем текст в TextView (show)");
-        showCongrats.setText(String.format("%s%s", getString(R.string.textCongrats), name));
+        showCongrats.setText(String.format(getString(R.string.textCongrats_MainActivity), name));
     }
 }

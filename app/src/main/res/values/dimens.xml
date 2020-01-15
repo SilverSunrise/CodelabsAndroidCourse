@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="padding">7dp</dimen>
-    <dimen name="nameSize">24sp</dimen>
+    <dimen name="textViewShowCong_MainActivity_textSize">24sp</dimen>
+    <dimen name="editName_MainActivity_paddingLeft">8dp</dimen>
+    <dimen name="editName_MainActivity_paddingTop">16dp</dimen>
+    <dimen name="editName_MainActivity_paddingRight">8dp</dimen>
 </resources>
