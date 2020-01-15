@@ -1,5 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="padding_regular">10dp</dimen>
-    <dimen name="line_spacing">5sp</dimen>
+    <dimen name="articleSubhead_mainActivity_width">100dp</dimen>
+    <dimen name="articleHead_mainActivity_paddingRegular">10dp</dimen>
+    <dimen name="articleSubHead_mainActivity_paddingRegular">10dp</dimen>
+    <dimen name="article_mainActivity_paddingRegular">10dp</dimen>
+    <dimen name="articleSubHead_mainActivity_textSize">16sp</dimen>
+    <dimen name="article_mainActivity_lineSpacing">5sp</dimen>
 </resources>
