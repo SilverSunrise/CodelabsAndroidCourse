@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CodelabsAndroidCourse</string>
+    <string name="app_name">Hello Toast</string>
     <string name="button_count">Count</string>
     <string name="button_toast">Say hello</string>
     <string name="showCount">0</string>
@@ -7,4 +7,7 @@
     <string name="activity2_name">Second Activity</string>
     <string name="show_hello">Hello</string>
     <string name="second_count">0</string>
+    <string name="textBtnToast_mainActivity">Hello Toast</string>
+    <string name="extraCount_showToastMainActivity_putCount">count</string>
+    <string name="extraCount_secondActivity_getCount">count</string>
 </resources>

@@ -11,10 +11,8 @@ public class SecondActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
-        String count = getIntent().getStringExtra("count");
+        String count = getIntent().getStringExtra(getString(R.string.extraCount_secondActivity_getCount));
         TextView textView = findViewById(R.id.showCountSecond);
         textView.setText(count);
-
-
     }
 }
