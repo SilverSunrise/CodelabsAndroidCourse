@@ -4,4 +4,6 @@
     <string name="button_toast">Toast</string>
     <string name="showCount">0</string>
     <string name="button_zero">Zero</string>
+    <string name="textBtnToast_mainActivity">Hello Toast</string>
+    <string name="showZero_mainActivity_Zero">0</string>
 </resources>

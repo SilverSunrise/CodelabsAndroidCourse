@@ -2,7 +2,6 @@ package com.example.android.com;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -24,18 +23,15 @@ public class MainActivity extends AppCompatActivity {
         cShowBtn = findViewById(R.id.button_zero);
     }
 
-    public void ShowToast(View view) {
-        Toast toast = Toast.makeText(this,"Hello Toast", Toast.LENGTH_SHORT);
+    public void showToast(View view) {
+        Toast toast = Toast.makeText(this, R.string.textBtnToast_mainActivity, Toast.LENGTH_SHORT);
         toast.show();
     }
 
-
-    @SuppressLint("SetTextI18n")
     public void countUp(View view) {
-
         mCount++;
-        if(mShowCount != null) {
-            mShowCount.setText(Integer.toString(mCount));
+        if (mShowCount != null) {
+            mShowCount.setText((String.valueOf(mCount)));
         }
         if (mCount % 2 == 0) {
             cShowBtn.setBackgroundColor(Color.rgb(231, 84, 128));
@@ -44,8 +40,8 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void ShowZero(View view) {
-        mShowCount.setText("0");
+    public void showZero(View view) {
+        mShowCount.setText(R.string.showZero_mainActivity_Zero);
         mCount = 0;
         cShowBtn.setBackgroundColor(Color.rgb(133, 133, 133));
     }
