@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btnToast_mainActivity_paddingLeft">8dp</dimen>
+    <dimen name="btnToast_mainActivity_paddingTop">8dp</dimen>
+    <dimen name="btnCount_mainActivity_paddingLeft">8dp</dimen>
+    <dimen name="btnCount_mainActivity_paddingTop">8dp</dimen>
+    <dimen name="textViewShowCount_mainActivity_paddingLeft">8dp</dimen>
+    <dimen name="textViewShowCount_mainActivity_paddingTop">8dp</dimen>
+    <dimen name="textViewShowCount_mainActivity_textSize">160sp</dimen>
+</resources>

@@ -3,4 +3,7 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="btnToast_mainActivity_backColor">#2C27C5</color>
+    <color name="textViewShowCount_mainActivity_backColor">#FFFF00</color>
+    <color name="textViewShowCount_mainActivity_textColor">#2C27C5</color>
 </resources>
