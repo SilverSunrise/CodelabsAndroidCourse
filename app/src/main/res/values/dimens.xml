@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    MainActivity buttonToast -->
+    <dimen name="btnToast_mainActivity_width">0dp</dimen>
+    <dimen name="btnToast_mainActivity_paddingLeft">8dp</dimen>
+    <dimen name="btnToast_mainActivity_paddingTop">8dp</dimen>
+    <dimen name="btnToast_mainActivity_paddingRight">8dp</dimen>
+    <!--    MainActivity TextView showCount -->
+    <dimen name="textViewShowCount_mainActivity_height">0dp</dimen>
+    <dimen name="textViewShowCount_mainActivity_paddingLeft">8dp</dimen>
+    <dimen name="textViewShowCount_mainActivity_paddingTop">8dp</dimen>
+    <dimen name="textViewShowCount_mainActivity_paddingRight">8dp</dimen>
+    <dimen name="textViewShowCount_mainActivity_paddingBottom">8dp</dimen>
+    <dimen name="textViewShowCount_mainActivity_textSize">160sp</dimen>
+    <!--    MainActivity buttonCount -->
+    <dimen name="btnCount_mainActivity_width">0dp</dimen>
+    <dimen name="btnCount_mainActivity_paddingLeft">8dp</dimen>
+    <dimen name="btnCount_mainActivity_paddingRight">8dp</dimen>
+    <dimen name="btnCount_mainActivity_paddingBottom">8dp</dimen>
+
+    <!--    MainActivity Land buttonToast -->
+    <dimen name="btnToast_mainActivityLand_width">0dp</dimen>
+    <dimen name="btnToast_mainActivityLand_paddingLeft">8dp</dimen>
+    <dimen name="btnToast_mainActivityLand_paddingTop">8dp</dimen>
+    <dimen name="btnToast_mainActivityLand_paddingRight">8dp</dimen>
+    <!--    MainActivity Land TextView showCount -->
+    <dimen name="textViewShowCount_mainActivityLand_height">0dp</dimen>
+    <dimen name="textViewShowCount_mainActivityLand_paddingLeft">8dp</dimen>
+    <dimen name="textViewShowCount_mainActivityLand_paddingTop">8dp</dimen>
+    <dimen name="textViewShowCount_mainActivityLand_paddingRight">8dp</dimen>
+    <dimen name="textViewShowCount_mainActivityLand_paddingBottom">8dp</dimen>
+    <dimen name="textViewShowCount_mainActivityLand_textSize">120sp</dimen>
+    <!--    MainActivity Land buttonCount -->
+    <dimen name="btnCount_mainActivityLand_width">0dp</dimen>
+    <dimen name="btnCount_mainActivityLand_paddingLeft">8dp</dimen>
+    <dimen name="btnCount_mainActivityLand_paddingRight">8dp</dimen>
+    <dimen name="btnCount_mainActivityLand_paddingBottom">8dp</dimen>
+
+    <!--    MainActivity Tablet (sw600dp) buttonToast -->
+    <dimen name="btnToast_mainActivityTablet_width">288dp</dimen>
+    <dimen name="btnToast_mainActivityTablet_paddingTop">8dp</dimen>
+    <dimen name="btnToast_mainActivityTablet_textSize">36sp</dimen>
+    <!--    MainActivity Tablet (sw600dp) TextView showCount -->
+    <dimen name="textViewShowCount_mainActivityTablet_width">0dp</dimen>
+    <dimen name="textViewShowCount_mainActivityTablet_height">0dp</dimen>
+    <dimen name="textViewShowCount_mainActivityTablet_paddingLeft">8dp</dimen>
+    <dimen name="textViewShowCount_mainActivityTablet_paddingTop">8dp</dimen>
+    <dimen name="textViewShowCount_mainActivityTablet_paddingRight">8dp</dimen>
+    <dimen name="textViewShowCount_mainActivityTablet_paddingBottom">8dp</dimen>
+    <dimen name="textViewShowCount_mainActivityTablet_textSize">200sp</dimen>
+    <!--    MainActivity Tablet (sw600dp) buttonCount -->
+    <dimen name="btnCount_mainActivityTablet_width">288dp</dimen>
+    <dimen name="btnCount_mainActivityTablet_textSize">36sp</dimen>
+
+
+
+</resources>
