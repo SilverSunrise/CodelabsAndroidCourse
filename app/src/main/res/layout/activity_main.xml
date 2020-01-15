@@ -10,14 +10,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
-        android:padding="@dimen/padding_regular"
+        android:padding="@dimen/articleHead_mainActivity_paddingRegular"
         android:text="@string/article_title"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
         android:textColor="@android:color/white"
         android:textStyle="bold" />
-
-
-
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -31,11 +28,11 @@
 
             <TextView
                 android:id="@+id/article_subheading"
-                android:layout_width="100dp"
+                android:layout_width="@dimen/articleSubhead_mainActivity_width"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
-                android:textSize="@dimen/sub_size"
-                android:padding="@dimen/padding_regular"
+                android:textSize="@dimen/articleSubHead_mainActivity_textSize"
+                android:padding="@dimen/articleSubHead_mainActivity_paddingRegular"
                 android:text="@string/article_subtitle"
                 android:textAppearance="@android:style/TextAppearance.DeviceDefault" />
 
@@ -44,8 +41,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:autoLink="web"
-                android:lineSpacingExtra="@dimen/line_spacing"
-                android:padding="@dimen/padding_regular"
+                android:lineSpacingExtra="@dimen/article_mainActivity_lineSpacing"
+                android:padding="@dimen/article_mainActivity_paddingRegular"
                 android:text="@string/article_text" />
         </LinearLayout>
     </ScrollView>
