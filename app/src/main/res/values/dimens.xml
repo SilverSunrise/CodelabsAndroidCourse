@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btnToast_mainActivity_paddingLeft">8dp</dimen>
+    <dimen name="btnToast_mainActivity_paddingTop">8dp</dimen>
+    <dimen name="btnToast_mainActivity_paddingRight">8dp</dimen>
+    <dimen name="btnToast_mainActivity_width">0dp</dimen>
+    <dimen name="showCountView_mainActivity_height">0dp</dimen>
+    <dimen name="showCountView_mainActivity_paddingLeft">8dp</dimen>
+    <dimen name="showCountView_mainActivity_paddingTop">8dp</dimen>
+    <dimen name="showCountView_mainActivity_paddingRight">8dp</dimen>
+    <dimen name="showCountView_mainActivity_paddingBottom">8dp</dimen>
+    <dimen name="showCountView_mainActivity_textSize">160sp</dimen>
+    <dimen name="btnCount_mainActivity_paddingLeft">8dp</dimen>
+    <dimen name="btnCount_mainActivity_paddingRight">8dp</dimen>
+    <dimen name="btnCount_mainActivity_paddingBottom">8dp</dimen>
+    <dimen name="btnCount_mainActivity_width">0dp</dimen>
+</resources>

@@ -2,7 +2,7 @@ package com.example.android.com;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
+
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -20,16 +20,16 @@ public class MainActivity extends AppCompatActivity {
         mShowCount = findViewById(R.id.show_count);
     }
 
-    public void ShowToast(View view) {
-        Toast toast = Toast.makeText(this,"Hello Toast", Toast.LENGTH_SHORT);
+    public void showToast(View view) {
+        Toast toast = Toast.makeText(this, R.string.textBtnToast_mainActivity, Toast.LENGTH_SHORT);
         toast.show();
     }
 
-    @SuppressLint("SetTextI18n")
+
     public void countUp(View view) {
         mCount++;
         if(mShowCount != null) {
-            mShowCount.setText(Integer.toString(mCount));
+            mShowCount.setText((String.valueOf(mCount)));
         }
     }
 
