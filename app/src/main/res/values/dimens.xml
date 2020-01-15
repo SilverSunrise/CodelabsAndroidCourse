@@ -4,4 +4,7 @@
     <dimen name="editName_MainActivity_paddingLeft">8dp</dimen>
     <dimen name="editName_MainActivity_paddingTop">16dp</dimen>
     <dimen name="editName_MainActivity_paddingRight">8dp</dimen>
+    <dimen name="btnCong_mainActivity_paddingLeft">8sp</dimen>
+    <dimen name="btnCong_MainActivity_paddingTop">16dp</dimen>
+    <dimen name="btnCong_MainActivity_paddingRight">8dp</dimen>
 </resources>

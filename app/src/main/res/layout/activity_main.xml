@@ -6,16 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/show_congratulation"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="@dimen/textViewShowCong_MainActivity_textSize"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <EditText
         android:id="@+id/edit_name"
         android:layout_width="wrap_content"
@@ -37,15 +27,25 @@
         android:id="@+id/button_congratulation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/editName_MainActivity_paddingLeft"
-        android:layout_marginLeft="@dimen/editName_MainActivity_paddingLeft"
-        android:layout_marginTop="@dimen/editName_MainActivity_paddingTop"
-        android:layout_marginEnd="@dimen/editName_MainActivity_paddingRight"
-        android:layout_marginRight="@dimen/editName_MainActivity_paddingRight"
+        android:layout_marginStart="@dimen/btnCong_mainActivity_paddingLeft"
+        android:layout_marginLeft="@dimen/btnCong_mainActivity_paddingLeft"
+        android:layout_marginTop="@dimen/btnCong_MainActivity_paddingTop"
+        android:layout_marginEnd="@dimen/btnCong_MainActivity_paddingRight"
+        android:layout_marginRight="@dimen/btnCong_MainActivity_paddingRight"
         android:onClick="showCongratulation"
         android:text="@string/btnCongrats_MainActivity"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/edit_name"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/show_congratulation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textViewShowCong_MainActivity_textSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
