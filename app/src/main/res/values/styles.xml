@@ -8,4 +8,37 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="buttons_mainActivity">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_marginStart">@dimen/btnToast_mainActivity_paddingLeft</item>
+        <item name="android:layout_marginTop">@dimen/btnToast_mainActivity_paddingTop</item>
+        <item name="android:layout_marginEnd">@dimen/btnToast_mainActivity_paddingRight</item>
+        <item name="android:layout_marginBottom">@dimen/btnCount_mainActivity_paddingBottom</item>
+    </style>
+
+    <style name="buttonsToast_text" parent="buttons_mainActivity">
+        <item name="android:text">@string/button_toast</item>
+        <item name="android:textSize">@dimen/btnCount_mainActivityTablet_textSize</item>
+    </style>
+
+    <style name="buttonsCount_text" parent="buttonsToast_text">
+        <item name="android:text">@string/button_count</item>
+    </style>
+
+
+    <style name="textView_showCount">
+        <item name="android:background">@color/textViewShowCount_mainActivity_backColor</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginStart">@dimen/textViewShowCount_mainActivity_paddingLeft</item>
+        <item name="android:layout_marginTop">@dimen/textViewShowCount_mainActivity_paddingTop</item>
+        <item name="android:layout_marginEnd">@dimen/textViewShowCount_mainActivity_paddingRight</item>
+        <item name="android:layout_marginBottom">@dimen/textViewShowCount_mainActivity_paddingBottom</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:text">@string/showCount</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/textViewShowCount_mainActivity_textSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
 </resources>
