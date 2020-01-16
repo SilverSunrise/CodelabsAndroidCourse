@@ -8,4 +8,57 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="buttonToast_mainActivity">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/btnToast_mainActivity_paddingLeft</item>
+        <item name="android:layout_marginLeft">@dimen/btnToast_mainActivity_paddingLeft</item>
+        <item name="android:layout_marginTop">@dimen/btnToast_mainActivity_paddingTop</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="buttonZero_mainActivity">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/btnZero_mainActivity_paddingLeft</item>
+        <item name="android:layout_marginLeft">@dimen/btnZero_mainActivity_paddingLeft</item>
+        <item name="android:layout_marginEnd">@dimen/btnZero_mainActivity_paddingRight</item>
+        <item name="android:layout_marginRight">@dimen/btnZero_mainActivity_paddingRight</item>
+        <item name="android:background">@android:color/darker_gray</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="buttonCount_mainActivity">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/btnCount_mainActivity_paddingLeft</item>
+        <item name="android:layout_marginLeft">@dimen/btnCount_mainActivity_paddingLeft</item>
+        <item name="android:background">@android:color/holo_blue_dark</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="textView_showCount_mainActivity">
+        <item name="android:layout_width">@dimen/textViewShowCount_mainActivity_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@+id/button_toast</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerHorizontal">false</item>
+        <item name="android:layout_marginStart">@dimen/textViewShowCount_mainActivity_paddingLeft
+        </item>
+        <item name="android:layout_marginLeft">@dimen/textViewShowCount_mainActivity_paddingLeft
+        </item>
+        <item name="android:layout_marginEnd">@dimen/textViewShowCount_mainActivity_paddingRight
+        </item>
+        <item name="android:layout_marginRight">@dimen/textViewShowCount_mainActivity_paddingRight
+        </item>
+        <item name="android:background">@color/textViewShowCount_mainActivity_backColor</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/textViewShowCount_mainActivity_textSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
 </resources>
