@@ -11,6 +11,7 @@
     <dimen name="textViewShowCount_paddingRight">8dp</dimen>
     <dimen name="textViewShowCount_paddingBottom">8dp</dimen>
     <dimen name="textViewShowCount_textSize">160sp</dimen>
+
     <dimen name="btnCount_mainActivity_paddingLeft">8dp</dimen>
     <dimen name="btnCount_mainActivity_paddingRight">8dp</dimen>
     <dimen name="btnCount_mainActivity_paddingBottom">8dp</dimen>
