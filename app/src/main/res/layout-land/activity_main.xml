@@ -9,29 +9,62 @@
 
     <Button
         android:id="@+id/button_toast"
+        android:layout_width="@dimen/btnToast_mainActivityLand_width"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/btnToast_mainActivityLand_paddingLeft"
+        android:layout_marginLeft="@dimen/btnToast_mainActivityLand_paddingLeft"
+        android:layout_marginTop="@dimen/btnToast_mainActivityLand_paddingTop"
+        android:layout_marginEnd="@dimen/btnToast_mainActivityLand_paddingRight"
+        android:layout_marginRight="@dimen/btnToast_mainActivityLand_paddingRight"
+        android:background="@color/colorPrimary"
         android:onClick="showToast"
         android:text="@string/button_toast"
+        android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        style="@style/buttonToast_mainActivityLand" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/show_count"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/textViewShowCount_mainActivityLand_height"
+        android:layout_below="@+id/button_toast"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="false"
+        android:layout_marginStart="@dimen/textViewShowCount_mainActivityLand_paddingLeft"
+        android:layout_marginLeft="@dimen/textViewShowCount_mainActivityLand_paddingLeft"
+        android:layout_marginTop="@dimen/textViewShowCount_mainActivityLand_paddingTop"
+        android:layout_marginEnd="@dimen/textViewShowCount_mainActivityLand_paddingRight"
+        android:layout_marginRight="@dimen/textViewShowCount_mainActivityLand_paddingRight"
+        android:layout_marginBottom="@dimen/textViewShowCount_mainActivityLand_paddingBottom"
+        android:background="@color/textViewShowCount_mainActivityLand_backColor"
+        android:gravity="center_vertical"
         android:text="@string/showCount"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/textViewShowCount_mainActivityLand_textSize"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/button_count"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_toast"
-        style="@style/textView_ShowCount_mainActivityLand" />
+        app:layout_constraintTop_toBottomOf="@+id/button_toast" />
 
     <Button
         android:id="@+id/button_count"
+        android:layout_width="@dimen/btnCount_mainActivityLand_width"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/btnCount_mainActivityLand_paddingLeft"
+        android:layout_marginLeft="@dimen/btnCount_mainActivityLand_paddingLeft"
+        android:layout_marginEnd="@dimen/btnCount_mainActivityLand_paddingRight"
+        android:layout_marginRight="@dimen/btnCount_mainActivityLand_paddingRight"
+        android:layout_marginBottom="@dimen/btnCount_mainActivityLand_paddingBottom"
+        android:background="@color/colorPrimary"
         android:onClick="countUp"
         android:text="@string/button_count"
+        android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        style="@style/buttonCount_mainActivityLand" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
