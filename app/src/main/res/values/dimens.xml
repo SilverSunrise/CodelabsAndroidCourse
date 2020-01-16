@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textViewHeadReply_mainActivity_paddingLeft">8dp</dimen>
+    <dimen name="textViewHeadReply_mainActivity_paddingTop">16dp</dimen>
+    <dimen name="textViewMessagReply_mainActivity_paddingLeft">8dp</dimen>
+    <dimen name="textViewMessagReply_mainActivity_paddingRight">8dp</dimen>
+    <dimen name="btnSend_mainActivity_paddingRight">16dp</dimen>
+    <dimen name="btnSend_mainActivity_paddingBottom">16dp</dimen>
+    <dimen name="editTextInput_mainActivity_paddingLeft">8dp</dimen>
+    <dimen name="editTextInput_mainActivity_paddingRight">8dp</dimen>
+    <dimen name="editTextInput_mainActivity_paddingBottom">16dp</dimen>
+    <dimen name="editTextInput_mainActivity_width">0dp</dimen>
+    <dimen name="btnSend_secondActivity_paddingRight">16dp</dimen>
+    <dimen name="btnSend_secondActivity_paddingBottom">16dp</dimen>
+    <dimen name="editTextInput_secondActivity_width">0dp</dimen>
+    <dimen name="editTextInput_secondActivity_paddingLeft">8dp</dimen>
+    <dimen name="editTextInput_secondActivity_paddingRight">8dp</dimen>
+    <dimen name="editTextInput_secondActivity_paddingBottom">16dp</dimen>
+    <dimen name="textViewMessag_secondActivity_paddingLeft">8dp</dimen>
+    <dimen name="textViewMessag_secondActivity_paddingTop">8dp</dimen>
+</resources>

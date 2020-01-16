@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -6,6 +6,46 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="textViewHeader">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:text">@string/textView_secondActivity_messageReceived</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textMessage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/textViewMessag_secondActivity_paddingLeft
+        </item>
+        <item name="android:layout_marginTop">@dimen/textViewMessag_secondActivity_paddingTop</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
+    </style>
+
+    <style name="btnSend">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">@dimen/btnSend_mainActivity_paddingRight</item>
+        <item name="android:layout_marginBottom">@dimen/btnSend_mainActivity_paddingBottom</item>
+        <item name="android:text">@string/btnSend_mainActivity</item>
+    </style>
+
+    <style name="ViewInputMessage">
+        <item name="android:layout_width">@dimen/editTextInput_mainActivity_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/editTextInput_mainActivity_paddingLeft</item>
+        <item name="android:layout_marginEnd">@dimen/editTextInput_mainActivity_paddingRight</item>
+        <item name="android:layout_marginBottom">@dimen/editTextInput_mainActivity_paddingBottom
+        </item>
+        <item name="android:ems">10</item>
+        <item name="android:importantForAutofill" tools:targetApi="o">no</item>
+        <item name="android:hint">@string/editText_mainActivity_textMessage</item>
+        <item name="android:inputType">textPersonName</item>
     </style>
 
 </resources>
