@@ -9,7 +9,6 @@
     <TextView
         android:id="@+id/text_header_reply"
         style="@style/textViewHeader"
-        android:text="@string/textView_secondActivity_messageReceived"
         android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -33,6 +32,9 @@
         style="@style/ViewInputMessage"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button_send"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="Autofill,LabelFor" />
+    <!--    android:importantForAutofill="no"-->
+    <!--    android:hint="@string/editText_mainActivity_textMessage"-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

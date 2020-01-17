@@ -18,7 +18,10 @@
         style="@style/ViewInputMessage"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button_send_second"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="Autofill,LabelFor" />
+    <!--    android:importantForAutofill="no"-->
+    <!--    android:hint="@string/editText_mainActivity_textMessage"-->
 
     <TextView
         android:id="@+id/text_header"
