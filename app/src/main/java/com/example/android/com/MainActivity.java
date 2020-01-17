@@ -1,14 +1,17 @@
 package com.example.android.com;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+
 
 public class MainActivity extends AppCompatActivity {
+
+    public static final String COUNT =
+            "com.example.android.com.COUNT";
 
     private int mCount = 0;
     private TextView mShowCount;
@@ -20,16 +23,16 @@ public class MainActivity extends AppCompatActivity {
         mShowCount = findViewById(R.id.show_count);
     }
 
-    public void ShowToast(View view) {
-        Toast toast = Toast.makeText(this,"Hello Toast", Toast.LENGTH_SHORT);
-        toast.show();
+    public void showToast(View view) {
+        Intent intent = new Intent(this, SecondActivity.class);
+        intent.putExtra(COUNT, mShowCount.getText().toString());
+        startActivity(intent);
     }
 
-    @SuppressLint("SetTextI18n")
     public void countUp(View view) {
         mCount++;
-        if(mShowCount != null) {
-            mShowCount.setText(Integer.toString(mCount));
+        if (mShowCount != null) {
+            mShowCount.setText((String.valueOf(mCount)));
         }
     }
 
