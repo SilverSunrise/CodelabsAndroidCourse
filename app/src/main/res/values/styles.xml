@@ -8,4 +8,39 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="buttons_mainActivity">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#4ECC40</item>
+    </style>
+
+    <style name="buttons_mainActivity.buttonThree">
+        <item name="android:layout_marginTop">68dp</item>
+    </style>
+
+    <style name="TextView_secondActivity">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextView_secondActivity.heading">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.DeviceDefault</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="TextView_secondActivity.article">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:lineSpacingExtra">5sp</item>
+    </style>
+
+    <style name="scrollView_secondActivity">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/article_heading</item>
+    </style>
+
 </resources>
