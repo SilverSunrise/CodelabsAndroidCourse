@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textView_mainActivity_textSize">56sp</dimen>
+    <dimen name="btnCountUp_mainActivity_marginTop">12sp</dimen>
+    <dimen name="editTextInput_mainActivity_marginTop">12sp</dimen>
+</resources>

@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">CodelabsAndroidCourse</string>
+    <string name="app_name">Activity lifecycle and state</string>
+    <string name="textView_mainActivity_showCount">0</string>
+    <string name="btnCountUp_mainActivity_text">Count</string>
+    <string name="editTextInput_mainActivity_hintText">Write something</string>
+    <string name="mCountKey_mainActivity">count</string>
+    <string name="mShowCountKey_mainActivity">showCount</string>
 </resources>
