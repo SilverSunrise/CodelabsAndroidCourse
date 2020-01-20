@@ -10,52 +10,45 @@
 
     <EditText
         android:id="@+id/website_editText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
         android:text="@string/editText_mainActivity_url"
-        tools:ignore="Autofill,LabelFor" />
+        tools:ignore="Autofill,LabelFor"
+        style="@style/editText_mainActivity" />
 
     <Button
         android:id="@+id/open_website_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
         android:onClick="openWebsite"
-        android:text="@string/buttonOpen_mainActivity_url" />
+        android:text="@string/buttonOpen_mainActivity_url"
+        style="@style/buttons_mainActivity" />
 
     <EditText
         android:id="@+id/location_editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
+        style="@style/editText_mainActivity"
         android:text="@string/editText_mainActivity_loc"
         tools:ignore="Autofill,LabelFor" />
 
     <Button
         android:id="@+id/open_location_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/buttons_mainActivity"
         android:onClick="openLocation"
         android:text="@string/buttonOpen_mainActivity_loc" />
 
     <EditText
         android:id="@+id/share_editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
+        style="@style/editText_mainActivity"
         android:text="@string/editText_mainActivity_share"
         tools:ignore="Autofill,LabelFor" />
 
     <Button
         android:id="@+id/share_text_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/buttons_mainActivity"
         android:onClick="shareText"
         android:text="@string/buttonOpen_mainActivity_share" />
+
+    <Button
+        android:id="@+id/takePhoto"
+        style="@style/buttons_mainActivity.takePhoto"
+        android:onClick="openPhoto"
+        android:text="@string/buttonPicture_mainActivity_takePicture" />
 
 
 </LinearLayout>
