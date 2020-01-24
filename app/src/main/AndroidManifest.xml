@@ -12,19 +12,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity_second"
-            android:label = "@string/label_Manifest_SecondActivity"
+        <activity android:name=".ReplyMessageActivity"
+            android:label = "@string/label_Manifest_ReplyMessageActivity"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=
-                    "com.example.android.com.activity_second" />
+                    "com.example.android.com.ReplyMessageActivity" />
         </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.LAUNCHER"
+                    />
             </intent-filter>
         </activity>
     </application>

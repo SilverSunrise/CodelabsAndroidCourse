@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity_second">
+    tools:context=".ReplyMessageActivity">
 
     <Button
         android:id="@+id/button_send_second"
         style="@style/btnSend"
         android:onClick="returnReply"
+        android:text="@string/btn_secondActivity_textReply"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -19,9 +20,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button_send_second"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="Autofill,LabelFor" />
-    <!--    android:importantForAutofill="no"-->
-    <!--    android:hint="@string/editText_mainActivity_textMessage"-->
+        android:importantForAutofill="no"
+        android:hint="@string/editText_mainActivity_textMessage"/>
 
     <TextView
         android:id="@+id/text_header"

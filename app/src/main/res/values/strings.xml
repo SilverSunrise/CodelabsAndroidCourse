@@ -2,8 +2,8 @@
     <string name="app_name">Two Activities</string>
     <string name="btnSend_mainActivity">Send</string>
     <string name="textView_secondActivity_messageReceived">Message Received</string>
-    <string name="label_Manifest_SecondActivity">Second Activity</string>
-    <string name="logD_mainActivity">Button clicked!</string>
+    <string name="label_Manifest_ReplyMessageActivity">Reply Message Activity</string>
     <string name="editText_mainActivity_textMessage">Enter Your Message Here</string>
     <string name="editText_mainActivity_autoHints">message</string>
+    <string name="btn_secondActivity_textReply">Reply</string>
 </resources>

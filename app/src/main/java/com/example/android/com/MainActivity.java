@@ -2,7 +2,6 @@ package com.example.android.com;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -11,10 +10,9 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-    public static final String EXTRA_MESSAGE = "com.example.android.com.activity_second.MESSAGE";
+    public static final String EXTRA_MESSAGE = "com.example.android.com.ReplyMessageActivity.MESSAGE";
     public static final int TEXT_REQUEST = 1;
 
-    private static final String LOG_TAG = MainActivity.class.getSimpleName();
 
     private EditText mMessageEditText;
     private TextView mReplyHeadTextView;
@@ -24,8 +22,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.d(LOG_TAG, "-------");
-        Log.d(LOG_TAG, "onCreate");
         mMessageEditText = findViewById(R.id.inputMessage);
         mReplyHeadTextView = findViewById(R.id.text_header_reply);
         mReplyTextView = findViewById(R.id.text_message_reply);
@@ -50,8 +46,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     public void launchSecondActivity(View view) {
-        Log.d(LOG_TAG,getString(R.string.logD_mainActivity));
-        Intent intent = new Intent(this, activity_second.class);
+        Intent intent = new Intent(this, ReplyMessageActivity.class);
         String message = mMessageEditText.getText().toString();
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivityForResult(intent, TEXT_REQUEST);
@@ -63,47 +58,11 @@ public class MainActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == TEXT_REQUEST) {
             if (resultCode == RESULT_OK) {
-                String reply = data.getStringExtra(activity_second.EXTRA_REPLY);
+                String reply = data.getStringExtra(ReplyMessageActivity.EXTRA_REPLY);
                 mReplyHeadTextView.setVisibility(View.VISIBLE);
                 mReplyTextView.setText(reply);
                 mReplyTextView.setVisibility(View.VISIBLE);
             }
         }
-    }
-
-    @Override
-    protected void onStart() {
-        super.onStart();
-        Log.d(LOG_TAG, "onStart");
-    }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-        Log.d(LOG_TAG, "onPause");
-    }
-
-    @Override
-    protected void onRestart() {
-        super.onRestart();
-        Log.d(LOG_TAG, "onRestart");
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-        Log.d(LOG_TAG, "onResume");
-    }
-
-    @Override
-    protected void onStop() {
-        super.onStop();
-        Log.d(LOG_TAG, "onStop");
-    }
-
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        Log.d(LOG_TAG, "onDestroy()");
     }
 }
