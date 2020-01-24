@@ -1,11 +1,16 @@
 package com.example.android.com;
 
-class itemModel  {
+class Recipe {
     private String titles;
     private String description;
 
+    Recipe(String Title, String description) {
+        this.titles = Title;
+        this.description = description;
+    }
 
-    public String getTitles() {
+
+    String getTitles() {
         return titles;
     }
 
@@ -14,7 +19,7 @@ class itemModel  {
 
     }
 
-    public String getDescription() {
+    String getDescription() {
         return description;
 
     }

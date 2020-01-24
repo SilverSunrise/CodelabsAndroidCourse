@@ -7,6 +7,10 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 
 
+import java.util.Arrays;
+import java.util.Collection;
+
+
 public class MainActivity extends AppCompatActivity {
 
     private RecyclerView recipeList;
@@ -16,23 +20,30 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        recipeList = findViewById(R.id.rv_recipeList);
-        recipeList.setLayoutManager(new LinearLayoutManager(this));
-
-
-        itemModel[] itemModels = new itemModel[3];
-        for (int i = 0; i < 3; i++) {
-            itemModels[i] = new itemModel();
-
-        }
-
-        recipeAdapter = new RecipeAdapter();
-        recipeList.setAdapter(recipeAdapter);
-
+        initRecyclerView();
+        loadItem();
     }
 
+    private void initRecyclerView() {
+        recipeList = findViewById(R.id.rv_recipeList);
+        recipeList.setLayoutManager(new LinearLayoutManager(this));
+        recipeAdapter = new RecipeAdapter();
+        recipeList.setAdapter(recipeAdapter);
+    }
 
+    private Collection<Recipe> getItem() {
+        return Arrays.asList(
+                new Recipe(getString(R.string.tv_mainActivity_firstRecipeTitle), getString(R.string.tv_mainActivity_firstRecipeDescription)),
+                new Recipe(getString(R.string.tv_mainActivity_secondRecipeTitle), getString(R.string.tv_mainActivity_secondRecipeDescription)),
+                new Recipe(getString(R.string.tv_mainActivity_thirdRecipeTitle), getString(R.string.tv_mainActivity_thirdRecipeDescription)),
+                new Recipe(getString(R.string.tv_mainActivity_fourthRecipeTitle),getString(R.string.tv_mainActivity_fourthRecipeDescription)),
+                new Recipe(getString(R.string.tv_mainActivity_fifthRecipeTitle),getString(R.string.tv_mainActivity_fifthRecipeDescription))
+        );
+    }
 
+    private void loadItem() {
+        Collection<Recipe> items = getItem();
+        recipeAdapter.setItems(items);
+    }
 
 }

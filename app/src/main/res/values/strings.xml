@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">CodelabsAndroidCourse</string>
+    <string name="tv_mainActivity_firstRecipeTitle">Kale Lemon Sandwiches</string>
+    <string name="tv_mainActivity_firstRecipeDescription">This sandwich is stunningly delicious and tastes as good as it is healthy. Any greens of choice will work. The lemon adds an almost sweet taste. Be generous with it!</string>
+    <string name="tv_mainActivity_secondRecipeDescription">Everyone loves this, so double or even triple the recipe! It vanishes in a flash, and also works well as a salsa. It really is our all-time favorite summer salad. The red onion adds a dash of color and the zest (the peel) intensifies the lime flavor.</string>
+    <string name="tv_mainActivity_secondRecipeTitle">Mango-lime bean salad</string>
+    <string name="tv_mainActivity_thirdRecipeTitle">Sweet Potato and Lentil Soup with Shiitake Mushrooms</string>
+    <string name="tv_mainActivity_thirdRecipeDescription">This soup is so good Essy and I ate it ALL the first time I made it. If someone is hesitant about plant-based food, this has to be a convincer. Red lentils keep this soup a beautiful orange color. If you don’t have leeks use onions. Serve it alone or over rice with a big green salad.</string>
+    <string name="tv_mainActivity_fourthRecipeTitle">Lime mousse</string>
+    <string name="tv_mainActivity_fourthRecipeDescription">This is FABULOUS alone, topped with fruit of any kind or as a frosting on cake. It is fast to make at the last minute. Use more or less lime according to taste.</string>
+    <string name="tv_mainActivity_fifthRecipeDescription">Flavorful recipe for this farm raised fish that is easy and done in minutes! The fish is broiled with a creamy cheese coating for an impressive flavor and texture.</string>
+    <string name="tv_mainActivity_fifthRecipeTitle">Broiled Tilapia Parmesan</string>
 </resources>

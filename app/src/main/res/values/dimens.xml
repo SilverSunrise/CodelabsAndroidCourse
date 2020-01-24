@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="tvRecipeTitle_recipeItem_textSize">20sp</dimen>
-    <dimen name="tvRecipeDescription_recipeItem_textSize">14sp</dimen>
+    <dimen name="tvRecipeTitle_recipeItem_textSize">24sp</dimen>
+    <dimen name="tvRecipeDescription_recipeItem_textSize">16sp</dimen>
 </resources>
