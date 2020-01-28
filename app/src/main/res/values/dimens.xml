@@ -2,4 +2,7 @@
 <resources>
     <dimen name="tvRecipeTitle_recipeItem_textSize">24sp</dimen>
     <dimen name="tvRecipeDescription_recipeItem_textSize">16sp</dimen>
+    <dimen name="tvTextSize_recipeActivity_ingredients">16sp</dimen>
+    <dimen name="tvMarginTop_recipeActivity_ingredients">10dp</dimen>
+    <dimen name="tvLineSpacing_recipeActivity_ingredients">4dp</dimen>
 </resources>

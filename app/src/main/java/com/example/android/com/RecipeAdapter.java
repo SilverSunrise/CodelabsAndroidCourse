@@ -1,8 +1,6 @@
 package com.example.android.com;
 
 
-import android.content.Context;
-import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,10 +15,14 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.RecipeViewHolder>{
+public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.RecipeViewHolder> {
 
     private static List<Recipe> recipeList = new ArrayList<>();
+    private onRecipeClickListener onRecipeClickListener;
 
+    RecipeAdapter(onRecipeClickListener onClickListener) {
+        this.onRecipeClickListener = onClickListener;
+    }
 
     class RecipeViewHolder extends RecyclerView.ViewHolder {
 
@@ -31,16 +33,13 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.RecipeView
             super(itemView);
             titleRecipeView = itemView.findViewById(R.id.tv_recipeTitle);
             descriptionRecipeView = itemView.findViewById(R.id.tv_recipeDescription);
-//
-//            itemView.setOnClickListener(new View.OnClickListener() {
-//                @Override
-//                public void onClick(View v) {
-//                    getAdapterPosition();
-//                    Context context = MainActivity.this;
-//                    Class showRecipe = TextRecipeActivity.class;
-//                    Intent txtRecipeActivity = new Intent(context, showRecipe);
-//                }
-//            });
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Recipe recipe = recipeList.get(getLayoutPosition());
+                    onRecipeClickListener.onRecipeClick(recipe);
+                }
+            });
         }
 
         void bind(Recipe item) {
@@ -49,7 +48,11 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.RecipeView
         }
     }
 
-     void setItems(Collection<Recipe> items) {
+    public interface onRecipeClickListener {
+        void onRecipeClick(Recipe recipe);
+    }
+
+    void setItems(Collection<Recipe> items) {
         recipeList.clear();
         recipeList.addAll(items);
         notifyDataSetChanged();
@@ -71,4 +74,5 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.RecipeView
     public int getItemCount() {
         return recipeList.size();
     }
+
 }

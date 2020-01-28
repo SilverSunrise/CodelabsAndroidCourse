@@ -21,4 +21,12 @@
         <item name="android:textSize">@dimen/tvRecipeDescription_recipeItem_textSize</item>
     </style>
 
+    <style name="tv_recipeInfo_recipeIngredients">
+        <item name="android:layout_marginTop">@dimen/tvMarginTop_recipeActivity_ingredients</item>
+        <item name="android:textSize">@dimen/tvTextSize_recipeActivity_ingredients</item>
+        <item name="android:lineSpacingExtra">@dimen/tvLineSpacing_recipeActivity_ingredients</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
 </resources>
