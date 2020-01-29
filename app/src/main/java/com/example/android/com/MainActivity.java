@@ -9,6 +9,11 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    public static final String EXTRA_MESSAGE =
+            "com.example.android.droidcafe.extra.MESSAGE";
+    String mOrderMessage;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,19 +26,23 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void showDonutOrder(View view) {
-        displayToast(getString(R.string.donut_order_message));
+        mOrderMessage = getString(R.string.donut_order_message);
+        displayToast(mOrderMessage);
     }
 
     public void showIceCreamOrder(View view) {
-        displayToast(getString(R.string.ice_cream_order_message));
+        mOrderMessage = getString(R.string.ice_cream_order_message);
+        displayToast(mOrderMessage);
     }
 
     public void showFroyoOrder(View view) {
-        displayToast(getString(R.string.froyo_order_message));
+        mOrderMessage = getString(R.string.froyo_order_message);
+        displayToast(mOrderMessage);
     }
 
     public void LaunchOrderActivity(View view) {
         Intent intent = new Intent(MainActivity.this, OrderActivity.class);
+        intent.putExtra(EXTRA_MESSAGE, mOrderMessage);
         startActivity(intent);
     }
 }

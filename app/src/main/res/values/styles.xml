@@ -8,4 +8,55 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="tv_mainActivity_nameIntro">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/tv_mainActivity_marginTop</item>
+        <item name="android:textSize">@dimen/tv_mainActivity_textSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="iv_mainActivity">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/iv_mainActivity_marginStart</item>
+        <item name="android:layout_marginTop">@dimen/iv_mainActivity_marginTop</item>
+    </style>
+
+    <style name="tv_mainActivity">
+        <item name="android:layout_width">@dimen/tv_mainActivity_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/tv_mainActivity_marginStart</item>
+        <item name="android:layout_marginTop">@dimen/tv_mainActivityDonutDescription_marginTop
+        </item>
+        <item name="android:layout_marginEnd">@dimen/tv_mainActivityDonutDescription_marginEnd
+        </item>
+    </style>
+
+    <style name="btn_mainActivity_order">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">@dimen/btn_mainActivity_marginEnd</item>
+        <item name="android:layout_marginBottom">@dimen/btn_mainActivity_marginBottom</item>
+    </style>
+
+    <style name="iv_mainActivity.donut">
+        <item name="android:contentDescription">@string/iv_activityMain_descriptionDonut</item>
+    </style>
+
+    <style name="iv_mainActivity.iceCream">
+        <item name="android:contentDescription">@string/iv_activityMain_descriptionIce_cream</item>
+    </style>
+
+    <style name="iv_mainActivity.froyo">
+        <item name="android:contentDescription">@string/iv_activityMain_descriptionFroyo</item>
+    </style>
+
+    <style name="tv_activityOrder_order">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/tv_activityOrder_marginStart</item>
+        <item name="android:layout_marginTop">@dimen/tv_activityOrder_marginTop</item>
+    </style>
+
 </resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tv_mainActivity_marginTop">8dp</dimen>
+    <dimen name="tv_mainActivity_textSize">24sp</dimen>
+    <dimen name="iv_mainActivity_marginStart">24dp</dimen>
+    <dimen name="iv_mainActivity_marginTop">24dp</dimen>
+    <dimen name="tv_mainActivity_width">0dp</dimen>
+    <dimen name="tv_mainActivity_marginStart">24dp</dimen>
+    <dimen name="tv_mainActivityDonutDescription_marginTop">24dp</dimen>
+    <dimen name="tv_mainActivityDonutDescription_marginEnd">24dp</dimen>
+    <dimen name="tv_mainActivityIceCream_width">0dp</dimen>
+    <dimen name="tv_mainActivityIceCream_marginStart">24dp</dimen>
+    <dimen name="tv_mainActivityIceCream_marginTop">24dp</dimen>
+    <dimen name="tv_mainActivityIceCream_marginEnd">24dp</dimen>
+    <dimen name="tv_mainActivityFroyo_width">0dp</dimen>
+    <dimen name="tv_mainActivityFroyo_marginStart">24dp</dimen>
+    <dimen name="tv_mainActivityFroyo_marginTop">24dp</dimen>
+    <dimen name="tv_mainActivityFroyo_marginEnd">24dp</dimen>
+    <dimen name="btn_mainActivity_marginEnd">24dp</dimen>
+    <dimen name="btn_mainActivity_marginBottom">24dp</dimen>
+    <dimen name="tv_activityOrder_marginStart">24dp</dimen>
+    <dimen name="tv_activityOrder_marginTop">24dp</dimen>
+</resources>
