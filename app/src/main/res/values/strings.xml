@@ -2,7 +2,7 @@
     <string name="app_name">Droid Cafe</string>
     <string name="tv_activityMain_textIntro">Droid Desserts</string>
     <string name="iv_activityMain_descriptionDonut">Donuts are glazed and sprinkled with candy.</string>
-    <string name="iv_activityMain_descriptionIce_cream">Ice cream sandwiches have chocolate wafers and vanilla filling.</string>
+    <string name="iv_activityMain_descriptionIce_cream"> Ice cream sandwiches have chocolate wafers and vanilla filling.</string>
     <string name="iv_activityMain_descriptionFroyo">FroYo is premium self-serve frozen yogurt.</string>
     <string name="donut_order_message">You ordered a donut.</string>
     <string name="ice_cream_order_message">You ordered an ice cream sandwich.</string>
