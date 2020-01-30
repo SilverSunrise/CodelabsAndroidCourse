@@ -21,4 +21,10 @@
     <string name="rb_activityOrder_textSameDay">Same day messenger service</string>
     <string name="rb_activityOrder_textNextDay">Next day ground delivery</string>
     <string name="rb_activityOrder_textPickUp">Pick up</string>
+    <string-array name="labels_array">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Mobile</item>
+        <item>Other</item>
+    </string-array>
 </resources>
