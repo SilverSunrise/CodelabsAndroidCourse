@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cb_mainActivity_marginStart">24dp</dimen>
+    <dimen name="cb_mainActivity_marginTop">32dp</dimen>
+    <dimen name="cb_mainActivity_textSize">16sp</dimen>
+    <dimen name="btn_mainActivity_marginStart">24dp</dimen>
+    <dimen name="btn_mainActivity_marginTop">36dp</dimen>
+</resources>

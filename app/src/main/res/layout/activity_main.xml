@@ -6,13 +6,45 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <CheckBox
+        android:id="@+id/cb_chocolate"
+        style="@style/checkBox_mainActivity"
+        android:text="@string/cb_mainActivity_textChocolate"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <CheckBox
+        android:id="@+id/cb_sprinkles"
+        style="@style/checkBox_mainActivity"
+        android:text="@string/cb_mainActivity_textSprinkles"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@id/cb_chocolate" />
+
+    <CheckBox
+        android:id="@+id/cb_crushed_nuts"
+        style="@style/checkBox_mainActivity"
+        android:text="@string/cb_mainActivity_textNuts"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@id/cb_sprinkles" />
+
+    <CheckBox
+        android:id="@+id/cb_cherries"
+        style="@style/checkBox_mainActivity"
+        android:text="@string/cb_mainActivity_textCherries"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@id/cb_crushed_nuts" />
+
+    <CheckBox
+        android:id="@+id/cb_oreo_cookie"
+        style="@style/checkBox_mainActivity"
+        android:text="@string/cb_mainActivity_textOreo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@id/cb_cherries" />
+
+    <Button
+        android:id="@+id/show"
+        style="@style/btnShow_mainActivity"
+        android:text="@string/btn_mainActivity_text"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@id/cb_oreo_cookie" />
 </androidx.constraintlayout.widget.ConstraintLayout>

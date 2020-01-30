@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">CodelabsAndroidCourse</string>
+    <string name="app_name">Checkboxes_and_etc</string>
+    <string name="cb_mainActivity_textChocolate">Chocolate syrup</string>
+    <string name="cb_mainActivity_textSprinkles">Sprinkles</string>
+    <string name="cb_mainActivity_textNuts">Crushed nuts</string>
+    <string name="cb_mainActivity_textCherries">Cherries</string>
+    <string name="cb_mainActivity_textOreo">Oreo cookie crumbles</string>
+    <string name="btn_mainActivity_text">Show toast</string>
+    <string name="appendName_mainActivity_toppings">Toppings:\u0020</string>
+    <string name="appendName_mainActivity_chocolate">Chocolate syrup\u0020</string>
+    <string name="appendName_mainActivity_sprinkles">Sprinkles\u0020</string>
+    <string name="appendName_mainActivity_nuts">Crushed nuts\u0020</string>
+    <string name="appendName_mainActivity_cherries">Cherries\u0020</string>
+    <string name="appendName_mainActivity_oreo">Oreo cookie crumbles\u0020</string>
 </resources>
