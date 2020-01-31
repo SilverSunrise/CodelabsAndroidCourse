@@ -8,4 +8,26 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="tv_mainActivity">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/tv_activityMain_padding</item>
+    </style>
+
+    <style name="tv_mainActivity.articleSubheading">
+        <item name="android:textAppearance">@android:style/TextAppearance.DeviceDefault</item>
+    </style>
+
+    <style name="tv_mainActivity.article">
+        <item name="android:autoLink">web</item>
+        <item name="android:lineSpacingExtra">@dimen/tv_activityMain_lineSpacing</item>
+    </style>
+
+    <style name="tv_mainActivity.articleHeading">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.DeviceDefault.Large</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
 </resources>
