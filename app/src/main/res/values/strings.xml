@@ -21,6 +21,14 @@
     <string name="rb_activityOrder_textSameDay">Same day messenger service</string>
     <string name="rb_activityOrder_textNextDay">Next day ground delivery</string>
     <string name="rb_activityOrder_textPickUp">Pick up</string>
+    <string name="menuItem_contextMenu_titleContact">Contact</string>
+    <string name="menuItem_contextMenu_titleOrder">Order</string>
+    <string name="menuItem_contextMenu_titleStatus">Status</string>
+    <string name="menuItem_contextMenu_titleFavorites">Favorites</string>
+    <string name="action_order_message">You selected Order.</string>
+    <string name="action_status_message">You selected Status.</string>
+    <string name="action_favorites_message">You selected Favorites.</string>
+    <string name="action_contact_message">You selected Contact.</string>
     <string-array name="labels_array">
         <item>Home</item>
         <item>Work</item>

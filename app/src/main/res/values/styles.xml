@@ -1,7 +1,7 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
@@ -40,23 +40,30 @@
         <item name="android:layout_marginBottom">@dimen/btn_mainActivity_marginBottom</item>
     </style>
 
-    <style name="iv_mainActivity.donut">
-        <item name="android:contentDescription">@string/iv_activityMain_descriptionDonut</item>
-    </style>
-
-    <style name="iv_mainActivity.iceCream">
-        <item name="android:contentDescription">@string/iv_activityMain_descriptionIce_cream</item>
-    </style>
-
-    <style name="iv_mainActivity.froyo">
-        <item name="android:contentDescription">@string/iv_activityMain_descriptionFroyo</item>
-    </style>
-
     <style name="tv_activityOrder_order">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginStart">@dimen/tv_activityOrder_marginStart</item>
         <item name="android:layout_marginTop">@dimen/tv_activityOrder_marginTop</item>
+    </style>
+
+    <style name="Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="iv_mainActivity.land">
+        <item name="android:layout_width">@dimen/iv_activityMainLand_width</item>
+        <item name="android:layout_height">@dimen/iv_activityMainLand_height</item>
+        <item name="android:layout_marginTop">@dimen/iv_activityMainLand_marginTop</item>
+    </style>
+
+    <style name="tv_mainActivity.land">
+        <item name="android:layout_width">@dimen/tv_mainActivityLand_width</item>
+        <item name="android:layout_height">@dimen/tv_mainActivityLand_height</item>
+        <item name="android:layout_marginTop">@dimen/tv_mainActivityLand_marginTop</item>
     </style>
 
 </resources>
