@@ -66,4 +66,79 @@
         <item name="android:layout_marginTop">@dimen/tv_mainActivityLand_marginTop</item>
     </style>
 
+    <style name="tv_activityOrder">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/tv_activityOrder_marginStart</item>
+    </style>
+
+    <style name="tv_activityOrder.name">
+        <item name="android:layout_marginTop">@dimen/tv_activityOrder_marginTopLabel</item>
+    </style>
+
+    <style name="tv_activityOrder_order.label">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="tv_activityOrder_order.label.delivery">
+        <item name="android:textSize">@dimen/tv_activityOrderDeliveryLabel_textSize</item>
+    </style>
+
+    <style name="rg_activityOrder">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/rg_activityOrder_marginStart</item>
+        <item name="android:checkedButton">@id/nextDay</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="rb_activityOrder">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="spinner_activityOrder">
+        <item name="android:layout_width">@dimen/spinner_activityOrder_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/spinner_activityOrder_marginStart</item>
+        <item name="android:layout_marginTop">@dimen/spinner_activityOrder_marginTop</item>
+        <item name="android:layout_marginEnd">@dimen/spinner_activityOrder_marginEnd</item>
+    </style>
+
+    <style name="btn_activityOrder_choiceDate">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/btn_activityOrder_marginStart</item>
+    </style>
+
+    <style name="tv_activityOrder_date">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/tv_activityOrder_height</item>
+    </style>
+
+    <style name="et_activityOrder">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/et_activityOrder_marginStart</item>
+        <item name="android:ems">10</item>
+    </style>
+
+    <style name="et_activityOrder_phone">
+        <item name="android:layout_width">144dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:ems">10</item>
+        <item name="android:inputType">phone</item>
+    </style>
+
+    <style name="et_activityOrder.address">
+        <item name="android:ems">10</item>
+        <item name="android:inputType">textMultiLine</item>
+    </style>
+
+    <style name="et_activityOrder.name">
+        <item name="android:inputType">textPersonName</item>
+    </style>
+
 </resources>

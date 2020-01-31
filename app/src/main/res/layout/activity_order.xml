@@ -14,146 +14,118 @@
 
     <TextView
         android:id="@+id/name_label"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="32dp"
+        style="@style/tv_activityOrder.name"
         android:text="@string/tv_activityOrderName_text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_activityOrder_order" />
 
     <EditText
         android:id="@+id/name_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:ems="10"
+        style="@style/et_activityOrder.name"
         android:hint="@string/et_activityOrderName_hint"
-        android:inputType="textPersonName"
+        android:importantForAutofill="no"
         app:layout_constraintBaseline_toBaselineOf="@+id/name_label"
-        app:layout_constraintStart_toEndOf="@+id/name_label"
-        android:importantForAutofill="no" />
+        app:layout_constraintStart_toEndOf="@+id/name_label" />
 
     <TextView
         android:id="@+id/address_label"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="24dp"
+        style="@style/tv_activityOrder_order.label"
         android:text="@string/tv_activityOrderAddress_text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/name_label" />
 
     <EditText
         android:id="@+id/address_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:ems="10"
+        style="@style/et_activityOrder.address"
         android:hint="@string/et_activityOrderAddress_hint"
-        android:inputType="textMultiLine"
+        android:importantForAutofill="no"
         app:layout_constraintBaseline_toBaselineOf="@+id/address_label"
-        app:layout_constraintStart_toEndOf="@+id/address_label"
-        android:importantForAutofill="no" />
+        app:layout_constraintStart_toEndOf="@+id/address_label" />
 
     <TextView
         android:id="@+id/phone_label"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="24dp"
+        style="@style/tv_activityOrder_order.label"
         android:text="@string/tv_activityOrderPhone_text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/address_text" />
 
     <EditText
         android:id="@+id/phone_text"
-        android:layout_width="144dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:ems="10"
+        style="@style/et_activityOrder_phone"
         android:hint="@string/et_activityOrderPhone_hint"
-        android:inputType="phone"
+        android:importantForAutofill="no"
         app:layout_constraintBaseline_toBaselineOf="@id/phone_label"
-        app:layout_constraintStart_toEndOf="@+id/phone_label"
-        android:importantForAutofill="no" />
+        app:layout_constraintStart_toEndOf="@+id/phone_label" />
 
     <TextView
         android:id="@+id/note_label"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="24dp"
+        style="@style/tv_activityOrder_order.label"
         android:text="@string/tv_activityOrderNote_text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/phone_label" />
 
     <EditText
         android:id="@+id/note_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:ems="10"
+        style="@style/et_activityOrder"
         android:hint="@string/et_activityOrderNote_hint"
+        android:importantForAutofill="no"
         android:inputType="textCapSentences|textMultiLine"
         app:layout_constraintBaseline_toBaselineOf="@id/note_label"
-        app:layout_constraintStart_toEndOf="@id/note_label"
-        android:importantForAutofill="no" />
+        app:layout_constraintStart_toEndOf="@id/note_label" />
 
     <TextView
         android:id="@+id/delivery_label"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="24dp"
+        style="@style/tv_activityOrder_order.label.delivery"
         android:text="@string/tv_activityOrderDeliveryLabel_text"
-        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/note_text" />
 
     <RadioGroup
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:orientation="vertical"
-        android:checkedButton="@id/nextDay"
+        android:id="@+id/radioGroup"
+        style="@style/rg_activityOrder"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/delivery_label">
 
         <RadioButton
             android:id="@+id/sameDay"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/rb_activityOrder"
             android:onClick="onRadioButtonClicked"
             android:text="@string/rb_activityOrder_textSameDay" />
 
         <RadioButton
             android:id="@+id/nextDay"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/rb_activityOrder"
             android:onClick="onRadioButtonClicked"
             android:text="@string/rb_activityOrder_textNextDay" />
 
         <RadioButton
             android:id="@+id/pickUp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/rb_activityOrder"
             android:onClick="onRadioButtonClicked"
             android:text="@string/rb_activityOrder_textPickUp" />
 
     </RadioGroup>
 
     <Spinner
-        android:id="@+id/spinner"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="24dp"
-        android:layout_marginStart="8dp"
-        app:layout_goneMarginEnd="24dp"
-        android:layout_marginTop="24dp"
+        android:id="@+id/spinner_activityOrder"
+        style="@style/spinner_activityOrder"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/phone_text"
         app:layout_constraintTop_toBottomOf="@id/address_text" />
+
+    <Button
+        android:id="@+id/btn_choiceDate"
+        style="@style/btn_activityOrder_choiceDate"
+        android:onClick="launch"
+        android:text="@string/btn_activityOrder_textDate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <TextView
+        android:id="@+id/tv_activityOrder_date_text"
+        style="@style/tv_activityOrder_date"
+        app:layout_constraintStart_toEndOf="@id/btn_choiceDate"
+        app:layout_constraintTop_toTopOf="@+id/btn_choiceDate" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -26,4 +26,14 @@
     <dimen name="tv_mainActivityLand_width">195dp</dimen>
     <dimen name="tv_mainActivityLand_height">0dp</dimen>
     <dimen name="tv_mainActivityLand_marginTop">24dp</dimen>
+    <dimen name="btn_activityOrder_marginStart">24dp</dimen>
+    <dimen name="tv_activityOrder_height">0dp</dimen>
+    <dimen name="spinner_activityOrder_width">0dp</dimen>
+    <dimen name="spinner_activityOrder_marginEnd">24dp</dimen>
+    <dimen name="spinner_activityOrder_marginStart">8dp</dimen>
+    <dimen name="spinner_activityOrder_marginTop">24dp</dimen>
+    <dimen name="rg_activityOrder_marginStart">24dp</dimen>
+    <dimen name="tv_activityOrderDeliveryLabel_textSize">18sp</dimen>
+    <dimen name="et_activityOrder_marginStart">8dp</dimen>
+    <dimen name="tv_activityOrder_marginTopLabel">32dp</dimen>
 </resources>

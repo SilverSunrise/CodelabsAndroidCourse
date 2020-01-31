@@ -1,8 +1,9 @@
 package com.example.android.com;
 
-import androidx.annotation.NonNull;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -15,7 +16,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     public static final String EXTRA_MESSAGE =
-            "com.example.android.droidcafe.extra.MESSAGE";
+            "com.example.android.droidCafe.extra.MESSAGE";
     String mOrderMessage;
 
 
