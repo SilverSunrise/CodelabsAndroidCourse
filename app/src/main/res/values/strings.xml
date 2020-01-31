@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">CodelabsAndroidCourse</string>
+    <string name="hour">Hour:\u0020</string>
+    <string name="minute">\u0020Minute:\u0020</string>
+    <string name="timepicker">time picker</string>
+    <string name="tv_mainActivity_text">Hello World! Choose a time:</string>
+    <string name="btn_mainActivity_text">TIME</string>
 </resources>
