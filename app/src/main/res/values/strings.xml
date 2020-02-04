@@ -2,7 +2,7 @@
     <string name="app_name">Homework</string>
     <string name="label_Manifest_secondActivity">Hello!</string>
     <string name="button_count_mainActivity">Count</string>
-    <string name="button_toast_mainActivity">Toast</string>
+    <string name="button_toast_mainActivity">Say Hello</string>
     <string name="showCount_mainActivity">0</string>
     <string name="textViewHello_secondActivity">Hello!</string>
 </resources>
